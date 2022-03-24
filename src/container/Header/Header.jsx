@@ -45,8 +45,8 @@ const Header = () => (
       className="app__header-img"
     >
       <motion.img
-         transition={{ duration: 5 }}
-         whileInView={{rotate: [0,360], opacity:[0,0,1,1,1,1,1,1,1,1]}}
+         transition={{ repeat: Infinity, duration: 5 }}
+         whileInView={{rotate: [0,360]}}
          src={images.logosnake}
          alt="profile_circle"
          className="overlay_circle"

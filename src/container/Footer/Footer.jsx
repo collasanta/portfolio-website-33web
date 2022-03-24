@@ -76,7 +76,9 @@ const Footer = () => {
         </div>
       )}
 
-      <img className="app__footer-img"src={images.logo}></img>
+      <a href='/vcard.vcf' download>
+         <img className="app__footer-img"src={images.logo}></img>
+      </a>
     </>
   );
 };
