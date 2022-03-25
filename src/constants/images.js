@@ -13,6 +13,8 @@ import logo from '../assets/logo.png';
 import adidas from '../assets/adidas.png';
 import asus from '../assets/asus.png';
 import nb from '../assets/nb.png';
+import brflag from '../assets/brazilflag.png'
+import euaflag from '../assets/euaflag.png'
 
 
 export default {
@@ -30,5 +32,7 @@ export default {
   ethereum,
   solidity,
   logoclean,
-  logosnake
+  logosnake,
+  brflag,
+  euaflag
 };
