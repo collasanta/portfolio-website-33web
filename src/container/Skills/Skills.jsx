@@ -4,6 +4,7 @@ import ReactTooltip from 'react-tooltip';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
 import './Skills.scss';
+import { images } from '../../constants';
 
 const Skills = () => {
   const [experiences, setExperiences] = useState([]);
@@ -25,6 +26,7 @@ const Skills = () => {
   return (
     <>
       <h2 className="head-text">Meet <span>the Founder</span> Skills & Experiences</h2>
+      <img className="image" src={images.profilepic} alt=""/>
       <h3>Victor Henrique Collasanta</h3>
 
       <div className="app__skills-container">

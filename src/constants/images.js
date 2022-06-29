@@ -15,10 +15,12 @@ import asus from '../assets/asus.png';
 import nb from '../assets/nb.png';
 import brflag from '../assets/brazilflag.png'
 import euaflag from '../assets/euaflag.png'
+import profilepic from '../assets/profilepic.png'
 
 
 export default {
   email,
+  profilepic,
   mobile,
   react,
   about01,
