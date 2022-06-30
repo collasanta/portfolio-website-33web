@@ -38,21 +38,24 @@ const Header = () => (
         </motion.div>
       </div>
     </motion.div>
-
+    
     <motion.div
       whileInView={{ opacity: [0, 1] }}
       transition={{ duration: 3, delayChildren: 0.5 }}
       className="app__header-img"
     >
-      <motion.img
-         transition={{ repeat: Infinity, duration: 5 }}
-         whileInView={{rotate: [0,360]}}
-         src={images.logosnake}
-         alt="profile_circle"
-         className="overlay_circle"
-      />
-      <img src={images.logoclean} alt="profile_bg" />
-
+      <div className="circle_animation">
+        <motion.img
+          transition={{ repeat: Infinity, duration: 5 }}
+          whileInView={{rotate: [0,360]}}
+          src={images.logosnake}
+          alt="profile_circle"
+          className="overlay_circle"
+        />
+      </div>
+        
+        <img src={images.logoclean} alt="profile_bg" className="core_logo" />
+      
     </motion.div>
 
     <motion.div
