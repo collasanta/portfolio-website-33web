@@ -132,6 +132,18 @@
      }
    }
  }
+
+ .name {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+
+ }
  
  .app__skills-exp-year {
    margin-right: 3rem;

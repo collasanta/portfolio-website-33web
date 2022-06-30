@@ -5,6 +5,8 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
 import './Skills.scss';
 import { images } from '../../constants';
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
+
 
 const Skills = () => {
   const [experiences, setExperiences] = useState([]);
@@ -27,7 +29,13 @@ const Skills = () => {
     <>
       <h2 className="head-text">Meet <span>the Founder</span> Skills & Experiences</h2>
       <img className="image" src={images.profilepic} alt=""/>
-      <h3>Victor Henrique Collasanta</h3>
+      
+      <div className="name">
+        <h3>Victor Henrique Collasanta</h3>
+        <a href='https://www.linkedin.com/in/victor-collasanta-a4b9a913b/'><BsLinkedin /></a>
+        <a href='https://github.com/COLLASANTA'><BsGithub /></a>
+      </div>
+
 
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
