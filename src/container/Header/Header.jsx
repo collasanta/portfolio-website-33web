@@ -54,7 +54,7 @@ const Header = () => (
         />
       </div>
         
-        <img src={images.logoclean} alt="profile_bg" className="core_logo" />
+        <motion.img src={images.logoclean} whileHover={{ scale: 1.1}} alt="profile_bg" className="core_logo" />
       
     </motion.div>
 
