@@ -6,6 +6,7 @@ import { urlFor, client } from '../../client';
 import './Skills.scss';
 import { images } from '../../constants';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import { ImProfile } from 'react-icons/im'
 
 
 const Skills = () => {
@@ -32,8 +33,10 @@ const Skills = () => {
       
       <div className="name">
         <h3>Victor Henrique Collasanta</h3>
-        <a href='https://www.linkedin.com/in/victor-collasanta-a4b9a913b/'><BsLinkedin /></a>
-        <a href='https://github.com/COLLASANTA'><BsGithub /></a>
+        <a href='https://www.linkedin.com/in/victor-collasanta-a4b9a913b/'><BsLinkedin color="black" /></a>
+        <a href='https://github.com/COLLASANTA'><BsGithub color="black"/></a>
+        <a href='/CV.pdf'><ImProfile color="black"/></a>
+
       </div>
 
 
