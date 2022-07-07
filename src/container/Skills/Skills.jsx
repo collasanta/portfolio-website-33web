@@ -8,38 +8,29 @@ import { images } from '../../constants';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { ImProfile } from 'react-icons/im'
 
-
 const Skills = () => {
   const [experiences, setExperiences] = useState([]);
   const [skills, setSkills] = useState([]);
-
   useEffect(() => {
     const query = '*[_type == "experiences"]';
     const skillsQuery = '*[_type == "skills"]';
-
     client.fetch(query).then((data) => {
       setExperiences(data);
     });
-
     client.fetch(skillsQuery).then((data) => {
       setSkills(data);
     });
   }, []);
-
   return (
     <>
       <h2 className="head-text">Meet <span>the Founder</span> Skills & Experiences</h2>
       <img className="image" src={images.profilepic} alt=""/>
-      
       <div className="name">
         <h3>Victor Henrique Collasanta</h3>
         <a href='https://www.linkedin.com/in/victor-collasanta-a4b9a913b/'><BsLinkedin color="black" /></a>
         <a href='https://github.com/COLLASANTA'><BsGithub color="black"/></a>
         <a href='/CV.pdf'><ImProfile color="black"/></a>
-
       </div>
-
-
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
           {skills.map((skill) => (

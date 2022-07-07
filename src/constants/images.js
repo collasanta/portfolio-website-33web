@@ -19,7 +19,6 @@ import profilepic from '../assets/profilepic.png'
 import linkedin from '../assets/linkedin.svg'
 import github from '../assets/github.svg'
 
-
 export default {
   email,
   linkedin,

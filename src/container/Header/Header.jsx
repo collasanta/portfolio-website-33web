@@ -30,7 +30,6 @@ const Header = () => (
             <h1 className="head-text">Web3 Revolution</h1>
           </div>
         </motion.div>
-
         <motion.div className="tag-cmp app__flex" whileHover={{ scale: 1.1}}>
           <p className="p-text">WE ARE A <strong>WEB 3 AGENCY</strong></p>
           <p className="p-text">THAT DEVELOP <strong>DISRUPTIVE SOLUTIONS</strong></p>
@@ -38,7 +37,6 @@ const Header = () => (
         </motion.div>
       </div>
     </motion.div>
-    
     <motion.div
       whileInView={{ opacity: [0, 1] }}
       transition={{ duration: 3, delayChildren: 0.5 }}
@@ -52,12 +50,9 @@ const Header = () => (
           alt="profile_circle"
           className="overlay_circle"
         />
-      </div>
-        
-        <motion.img src={images.logoclean} whileHover={{ scale: 1.1}} alt="profile_bg" className="core_logo" />
-      
+      </div>    
+      <motion.img src={images.logoclean} whileHover={{ scale: 1.1}} alt="profile_bg" className="core_logo" />
     </motion.div>
-
     <motion.div
       variants={scaleVariants}
       whileInView={scaleVariants.whileInView}
