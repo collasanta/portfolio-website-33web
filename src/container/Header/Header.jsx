@@ -26,14 +26,14 @@ const Header = () => (
         <motion.div className="badge-cmp app__flex"  whileHover={{ scale: 1.1}} >
           <span>👋</span>
           <div style={{ marginLeft: 20 }}>
-            <p className="p-text">Welcome to the</p>
-            <h1 className="head-text">Web3 Revolution</h1>
+            <p className="p-text">Hi, my name is </p>
+            <h1 className="head-text text-left">Victor Collasanta</h1>
           </div>
         </motion.div>
         <motion.div className="tag-cmp app__flex" whileHover={{ scale: 1.1}}>
-          <p className="p-text">WE ARE A <strong>WEB 3 AGENCY</strong></p>
-          <p className="p-text">THAT DEVELOP <strong>DISRUPTIVE SOLUTIONS</strong></p>
-          <p className="p-text">TO <strong>ADVANCE HUMANITY</strong></p>
+          <p className="p-text">I am a <strong>FullStack Web3 Developer</strong></p>
+          <p className="p-text">THAT LOVES <strong>BUILDING SOLUTIONS</strong></p>
+          <p className="p-text">WITH <strong>HIGH END TECH</strong></p>
         </motion.div>
       </div>
     </motion.div>
@@ -42,7 +42,7 @@ const Header = () => (
       transition={{ duration: 3, delayChildren: 0.5 }}
       className="app__header-img"
     >
-      <div className="circle_animation">
+      {/* <div className="circle_animation">
         <motion.img
           transition={{ repeat: Infinity, duration: 5 }}
           whileInView={{rotate: [0,360]}}
@@ -50,8 +50,8 @@ const Header = () => (
           alt="profile_circle"
           className="overlay_circle"
         />
-      </div>    
-      <motion.img src={images.logoclean} whileHover={{ scale: 1.1}} alt="profile_bg" className="core_logo" />
+      </div>     */}
+      <motion.img src={images.profilepic} whileHover={{ scale: 1.1}} alt="profile_bg" className="core_logo" />
     </motion.div>
     <motion.div
       variants={scaleVariants}

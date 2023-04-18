@@ -18,8 +18,10 @@ import euaflag from '../assets/euaflag.png'
 import profilepic from '../assets/profilepic.png'
 import linkedin from '../assets/linkedin.svg'
 import github from '../assets/github.svg'
+import blockchain from '../assets/block.gif'
 
 export default {
+  blockchain,
   email,
   linkedin,
   github,
