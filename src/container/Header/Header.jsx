@@ -51,7 +51,7 @@ const Header = () => (
       whileInView={scaleVariants.whileInView}
       className="app__header-circles"
     >
-      {[images.next,  images.awsarc, images.ts, images.solidity].map((circle, index) => (
+      {[images.solidity,  images.awsarc, images.ts, images.next].map((circle, index) => (
         <motion.div whileHover={{ scale: 1.2}} className="circle-cmp app__flex" key={`circle-${index}` }>
           <img src={circle} alt="profile_bg" />
         </motion.div>

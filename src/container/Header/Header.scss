@@ -142,16 +142,24 @@
    }
  
    div:nth-child(2) {
-     margin: 1.75rem;
-     width: 150px;
-     height: 150px;
+     margin: 1rem;
+     width: 200px;
+     height: 200px;
+     img {
+      width: 85%;
+      height: 85%;
+    }
    }
  
    div:nth-child(3) {
      width: 70px;
      height: 70px;
-
-
+   }
+ 
+   div:nth-child(4) {
+    margin: 1rem;
+     width: 70px;
+     height: 70px;
    }
  
    @media screen and (min-width: 2000px) {
