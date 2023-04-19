@@ -19,8 +19,16 @@ import profilepic from '../assets/profilepic.png'
 import linkedin from '../assets/linkedin.svg'
 import github from '../assets/github.svg'
 import blockchain from '../assets/block.gif'
+import ts from '../assets/ts.png'
+import next from '../assets/next.png'
+import profilepic2 from '../assets/profilepic2.jpg'
+import awsarc from '../assets/awsarc.png'
 
 export default {
+  awsarc,
+  profilepic2,
+  next,
+  ts,
   blockchain,
   email,
   linkedin,

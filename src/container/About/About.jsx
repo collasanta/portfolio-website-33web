@@ -15,7 +15,11 @@ const About = () => {
 
   return (
     <>
-      <h2 className="head-text">We know that <span>Great Ideas</span> <br/>Unlocks a <span>Greater Future</span></h2>
+      <h2 className="head-text">blockchain and AI <span>more impactful</span> <br/>Than <span>Fire and  Electricity</span></h2>
+      <h4 className="head-text-2">Following the words from Sundar Pichai (Google CEO), </h4>
+      <h4 className="head-text-2">I strongly believe that the impact Blockchain and AI will have in the next years will surpass what fire and electricity brought to our society!</h4>
+      <h4 className="head-text-2">As a tech-lover and human, my job here is to accelerate this process with my unique web3, cloud and development skills</h4>
+      <h4 className="head-text-2"><span>I have pratical experience in the following topics:</span></h4>
       <div className="app__profiles">
         {abouts.map((about, index) => (
           <motion.div
