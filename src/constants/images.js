@@ -8,7 +8,7 @@ import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
 import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.PNG';
 import adidas from '../assets/adidas.png';
 import asus from '../assets/asus.png';
 import nb from '../assets/nb.png';
@@ -17,7 +17,6 @@ import euaflag from '../assets/euaflag.png'
 import profilepic from '../assets/profilepic.png'
 import linkedin from '../assets/linkedin.svg'
 import github from '../assets/github.svg'
-import blockchain from '../assets/block.gif'
 import ts from '../assets/ts.png'
 import next from '../assets/next.png'
 import profilepic2 from '../assets/profilepic2.jpg'
@@ -30,7 +29,6 @@ export default {
   profilepic2,
   next,
   ts,
-  blockchain,
   email,
   linkedin,
   github,
