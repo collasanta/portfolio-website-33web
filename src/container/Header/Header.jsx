@@ -51,7 +51,7 @@ const Header = () => (
       variants={scaleVariants}
       whileInView={{ opacity: [0, 1] }}
       transition={{ duration: 2, delayChildren: 0.5 }}
-      className="app__header-circles md:pl-[150px]"
+      className="app__header-circles md:pl-[50px]"
     >
       {[images.solidity,  images.awsarc, images.ts, images.next].map((circle, index) => (
         <motion.div whileHover={{ scale: 1.2}} className="circle-cmp app__flex" key={`circle-${index}` }>
