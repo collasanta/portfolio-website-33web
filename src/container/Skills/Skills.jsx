@@ -29,7 +29,7 @@ const Skills = () => {
       <img className="image mx-auto justify-center min-w-[300px] min-h-[300px] mx-auto flex flex-row"
          src={images.profilepic} alt=""/>
         <div className="text-center flex flex-col my-auto align-middle">
-        <div className="flex flex-row justify-center align-middle my-auto space-x-3 pb-3">
+        <div className="flex flex-row justify-center align-middle text-center my-auto space-x-3 pb-3 min-w-[20px] min-h-[20px]">
           <a href='https://www.linkedin.com/in/victor-collasanta-a4b9a913b/'><BsLinkedin color="black" /></a>
           <a href='https://github.com/COLLASANTA'><BsGithub color="black"/></a>
           <a href='/CV.pdf'><ImProfile color="black"/></a>

@@ -41,7 +41,7 @@ const Footer = () => {
           <a href="tel:+1 (123) 456-7890" className="p-text">+55 (11) 99617-1599</a>
         </div>
       </div>
-      {!isFormSubmitted ? (
+      {/* {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">
           <div className="app__flex">
             <input className="p-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} />
@@ -67,10 +67,8 @@ const Footer = () => {
           </h3>
 
         </div>
-      )}
-      <a href='/vcard.vcf' download>
-         <img className="app__footer-img"src={images.logo}></img>
-      </a>
+      )} */}
+         <img className="max-w-[100px]"src={images.logo}></img>
     </>
   );
 };

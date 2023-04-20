@@ -23,7 +23,7 @@ const Header = () => (
       className="app__header-info md:pr-7"
     >
       <div className="app__header-badge z-0">
-        <motion.div className="badge-cmp app__flex max-w-[350px] max-h-[300px]"  whileHover={{ scale: 1.1}} >
+        <motion.div className="badge-cmp app__flex max-w-[300px] max-h-[250px]"  whileHover={{ scale: 1.1}} >
           <span>👋</span>
           <div style={{ marginLeft: 20 }}>
             <p className="p-text text-[16px] ">Hi, my name is </p>
@@ -39,7 +39,7 @@ const Header = () => (
     </motion.div>
     <motion.div
       whileInView={{ opacity: [0, 1] }}
-      transition={{ duration: 3, delayChildren: 0.5 }}
+      transition={{ duration: 2, delayChildren: 0.5 }}
       className="app__header-img"
     >
 
@@ -49,9 +49,9 @@ const Header = () => (
     </motion.div>
     <motion.div
       variants={scaleVariants}
-      whileInView={{ x: [100, 0], opacity: [0, 1] }}
-      transition={{ duration: 1 }}
-      className="app__header-circles md:pl-10"
+      whileInView={{ opacity: [0, 1] }}
+      transition={{ duration: 2, delayChildren: 0.5 }}
+      className="app__header-circles md:pl-[150px]"
     >
       {[images.solidity,  images.awsarc, images.ts, images.next].map((circle, index) => (
         <motion.div whileHover={{ scale: 1.2}} className="circle-cmp app__flex" key={`circle-${index}` }>
