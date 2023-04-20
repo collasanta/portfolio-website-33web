@@ -9,7 +9,6 @@ import about02 from '../assets/about02.png';
 import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
 import logo from '../assets/logo.PNG';
-import adidas from '../assets/adidas.png';
 import asus from '../assets/asus.png';
 import nb from '../assets/nb.png';
 import brflag from '../assets/brazilflag.png'
@@ -40,7 +39,6 @@ export default {
   about03,
   about04,
   logo,
-  adidas,
   asus,
   nb,
   solidity,
