@@ -23,16 +23,22 @@ const Skills = () => {
   }, []);
   return (
     <>
-      <h2 className="head-text">Meet <span>the Founder</span> Skills & Experiences</h2>
-      <img className="image" src={images.profilepic} alt=""/>
-      <div className="name">
-        <h3>Victor Henrique Collasanta</h3>
-        <a href='https://www.linkedin.com/in/victor-collasanta-a4b9a913b/'><BsLinkedin color="black" /></a>
-        <a href='https://github.com/COLLASANTA'><BsGithub color="black"/></a>
-        <a href='/CV.pdf'><ImProfile color="black"/></a>
+      <div>
+      <h2 className="head-text mt-10 mb-4">Experiences <span>& </span> Skills </h2>
+      <img className="image mx-auto justify-center" src={images.profilepic} alt=""/>
+      <div className="name flex flex-row justify-center">
+        <div className="flex flex-col justify-center space-y-1">
+          <a href='https://www.linkedin.com/in/victor-collasanta-a4b9a913b/'><BsLinkedin color="black" /></a>
+          <a href='https://github.com/COLLASANTA'><BsGithub color="black"/></a>
+          <a href='/CV.pdf'><ImProfile color="black"/></a>
+        </div>
+        <div className="text-center flex flex-col my-auto align-middle">
+          <h3>Victor Henrique Collasanta</h3>
+          <p>26 years old</p>
+        </div>
       </div>
-      <div className="app__skills-container">
-        <motion.div className="app__skills-list">
+      <div className="app__skills-container md:pl-14 ">
+        <motion.div className="app__skills-list mx-auto">
           {skills.map((skill) => (
             <motion.div
               whileInView={{ opacity: [0, 1] }}
@@ -50,7 +56,7 @@ const Skills = () => {
             </motion.div>
           ))}
         </motion.div>
-        <div className="app__skills-exp">
+        <div className="app__skills-exp pl-4 md:pl-20 md:pt-12 pr-4">
           {experiences.map((experience) => (
             <motion.div
               className="app__skills-exp-item"
@@ -87,6 +93,8 @@ const Skills = () => {
             </motion.div>
           ))}
         </div>
+      </div>
+
       </div>
     </>
   );

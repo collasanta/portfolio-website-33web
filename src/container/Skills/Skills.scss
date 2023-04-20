@@ -6,9 +6,9 @@
  }
  
  .app__skills-container {
-   width: 80%;
+   width: 90%;
    margin-top: 3rem;
- 
+   margin-bottom: 3rem;
    display: flex;
    flex-direction: row;
  
@@ -19,6 +19,8 @@
  }
  
  .app__skills-list {
+   
+   max-width: 20em;
    flex: 1;
    display: flex;
    flex-wrap: wrap;

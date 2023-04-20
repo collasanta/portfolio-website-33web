@@ -38,8 +38,8 @@ const WorkProjects = () => {
 
   return (
     <>
-      <h2 className="head-text">Check our <span>Projects</span> </h2>
-
+      <h2 className="head-text">OpenSource <span>Projects</span> </h2>
+      <h1> Here is some of the projects i had built and opensourced </h1>
       <div className="app__work-filter">
         {['NFT', 'Defi', 'DAO', 'App', 'All'].map((item, index) => (
           <div

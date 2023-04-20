@@ -20,7 +20,7 @@ const Navbar = () => {
 
          ))}
       </ul>
-      <a className='language' href='https://br.33web.me/'><img src={images.brflag} alt="brazil flag" /></a>
+      {/* <a className='language' href='https://br.33web.me/'><img src={images.brflag} alt="brazil flag" /></a> */}
       <div className="app__navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)} />
         {toggle && (
@@ -38,7 +38,7 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <a className='language2' href='https://br.33web.me/'><img src={images.brflag} alt="brazil flag" /></a>
+            {/* <a className='language2' href='https://br.33web.me/'><img src={images.brflag} alt="brazil flag" /></a> */}
           </motion.div>
         )}
       </div>

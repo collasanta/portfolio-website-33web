@@ -30,15 +30,15 @@ const Footer = () => {
   };
   return (
     <>
-      <h2 className="head-text">Lets build together! <span>Chat with us</span></h2>
+      <h2 className="head-text">Get in <span>Contact</span></h2>
       <div className="app__footer-cards">
         <div className="app__footer-card ">
           <img src={images.email} alt="email" />
-          <a href="mailto:hello@micael.com" className="p-text">victor@33web.me</a>
+          <a href="mailto:hello@micael.com" className="p-text">victor.collasanta@gmail.com</a>
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="phone" />
-          <a href="tel:+1 (123) 456-7890" className="p-text">+55 (11) 98899-8852</a>
+          <a href="tel:+1 (123) 456-7890" className="p-text">+55 (11) 99617-1599</a>
         </div>
       </div>
       {!isFormSubmitted ? (

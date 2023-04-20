@@ -16,11 +16,11 @@ const About = () => {
   return (
     <>
       <h2 className="head-text"><span>blockchain and AI </span> more impactful<br/>Than <span>Fire and  Electricity</span></h2>
-      <h4 className="head-text-2">In alignment with Sundar Pichai's words (Google CEO), </h4>
-      <h4 className="head-text-2">I strongly believe that the impact Blockchain and AI will have in the next years will surpass what fire and electricity brought to our society!</h4>
+      <h4 className="head-text-2">In alignment with Pichai's words (Google CEO), </h4>
+      <h4 className="head-text-2 font-bold">I strongly believe that the impact Blockchain and AI will have in the next years will surpass what fire and electricity brought to our society!</h4>
       <h4 className="head-text-2">As a tech-lover and human, my job here is to accelerate this process with my unique web3, cloud and development skills</h4>
-      <h4 className="head-text-2"><span>I have pratical experience in the following topics:</span></h4>
-      <div className="app__profiles">
+      <h4 className="head-text-2 font-bold"><span>I have pratical experience in the following topics:</span></h4>
+      <div className="app__profiles max-w-[1100px]">
         {abouts.map((about, index) => (
           <motion.div
             whileInView={{ opacity: 1 }}
@@ -30,8 +30,8 @@ const About = () => {
             key={about.title + index}
           >
             <img src={urlFor(about.imgUrl)} alt={about.title} />
-            <h2 className="bold-text" style={{ marginTop: 20 }}>{about.title}</h2>
-            <p className="p-text" style={{ marginTop: 10 }}>{about.description}</p>
+            <h2 className="bold-text text-[18px]" style={{ marginTop: 20 }}>{about.title}</h2>
+            <p className="p-text text-[16px]" style={{ marginTop: 10 }}>{about.description}</p>
           </motion.div>
         ))}
       </div>

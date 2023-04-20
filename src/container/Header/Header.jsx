@@ -20,20 +20,20 @@ const Header = () => (
     <motion.div
       whileInView={{ x: [-100, 0], opacity: [0, 1] }}
       transition={{ duration: 0.5 }}
-      className="app__header-info"
+      className="app__header-info md:pr-7"
     >
-      <div className="app__header-badge">
-        <motion.div className="badge-cmp app__flex"  whileHover={{ scale: 1.1}} >
+      <div className="app__header-badge z-0">
+        <motion.div className="badge-cmp app__flex max-w-[350px] max-h-[300px]"  whileHover={{ scale: 1.1}} >
           <span>👋</span>
           <div style={{ marginLeft: 20 }}>
-            <p className="p-text">Hi, my name is </p>
-            <h1 className="head-text">Victor Collasanta</h1>
+            <p className="p-text text-[16px] ">Hi, my name is </p>
+            <h1 className="head-text text-left md: text-[40px] ">Victor Collasanta</h1>
           </div>
         </motion.div>
         <motion.div className="tag-cmp app__flex" whileHover={{ scale: 1.1}}>
-          <p className="p-text">I am a <strong>FullStack Web3 Developer</strong></p>
-          <p className="p-text">THAT LOVES <strong>BUILDING SOLUTIONS</strong></p>
-          <p className="p-text">WITH <strong>DISRUPTIVE TECH</strong></p>
+          <p className="p-text text-[16px] md:text-[15px]">I am a <strong>FullStack Web3 Developer</strong></p>
+          <p className="p-text text-[16px] md:text-[15px]">that loves <strong>Building Solutions</strong></p>
+          <p className="p-text text-[16px] md:text-[15px]">with <strong>Disruptive Tech</strong></p>
         </motion.div>
       </div>
     </motion.div>
@@ -43,13 +43,14 @@ const Header = () => (
       className="app__header-img"
     >
 
-      <motion.img src={images.profilepic2} whileHover={{ scale: 1.07}} alt="profile_bg" className="core_logo" />
+      <motion.img src={images.profilepic2} whileHover={{ scale: 1.07}} alt="profile_bg"
+       className="core_logo z-10" />
   
     </motion.div>
     <motion.div
       variants={scaleVariants}
       whileInView={scaleVariants.whileInView}
-      className="app__header-circles"
+      className="app__header-circles md:pl-10"
     >
       {[images.solidity,  images.awsarc, images.ts, images.next].map((circle, index) => (
         <motion.div whileHover={{ scale: 1.2}} className="circle-cmp app__flex" key={`circle-${index}` }>
