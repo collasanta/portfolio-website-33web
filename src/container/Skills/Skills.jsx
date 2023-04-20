@@ -23,19 +23,21 @@ const Skills = () => {
   }, []);
   return (
     <>
-      <div>
+      <div className='bg-[#edf2f8] rounded-lg shadow-lg max-w-[1050px]'>
       <h2 className="head-text mt-10 mb-4">Experiences <span>& </span> Skills </h2>
-      <img className="image mx-auto justify-center" src={images.profilepic} alt=""/>
-      <div className="name flex flex-row justify-center">
-        <div className="flex flex-col justify-center space-y-1">
+      <div className="name flex mx-auto flex-col pt-[20px] mx-auto justify-center" >
+      <img className="image mx-auto justify-center min-w-[300px] min-h-[300px] mx-auto flex flex-row"
+         src={images.profilepic} alt=""/>
+        <div className="text-center flex flex-col my-auto align-middle">
+        <div className="flex flex-row justify-center align-middle my-auto space-x-3 pb-3">
           <a href='https://www.linkedin.com/in/victor-collasanta-a4b9a913b/'><BsLinkedin color="black" /></a>
           <a href='https://github.com/COLLASANTA'><BsGithub color="black"/></a>
           <a href='/CV.pdf'><ImProfile color="black"/></a>
         </div>
-        <div className="text-center flex flex-col my-auto align-middle">
           <h3>Victor Henrique Collasanta</h3>
           <p>26 years old</p>
         </div>
+
       </div>
       <div className="app__skills-container md:pl-14 ">
         <motion.div className="app__skills-list mx-auto">

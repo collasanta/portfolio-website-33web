@@ -19,7 +19,7 @@ const Header = () => (
   <div className="app__header app__flex">
     <motion.div
       whileInView={{ x: [-100, 0], opacity: [0, 1] }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 1 }}
       className="app__header-info md:pr-7"
     >
       <div className="app__header-badge z-0">
@@ -49,7 +49,8 @@ const Header = () => (
     </motion.div>
     <motion.div
       variants={scaleVariants}
-      whileInView={scaleVariants.whileInView}
+      whileInView={{ x: [100, 0], opacity: [0, 1] }}
+      transition={{ duration: 1 }}
       className="app__header-circles md:pl-10"
     >
       {[images.solidity,  images.awsarc, images.ts, images.next].map((circle, index) => (
