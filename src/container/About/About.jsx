@@ -21,7 +21,7 @@ const About = () => {
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 1.5, delayChildren: 1 }}
             >
-      <h4 className="p-4 my-4 mt-10  text-center max-w-[450px] mx-auto bg-[#edf2f8] rounded-[20px] align-middle">I strongly believe that the impact Blockchain and AI will have in the next years will surpass what fire and electricity brought to our society!</h4>
+      <h4 className="p-4 my-4 mt-10  text-center max-w-[450px] mx-auto bg-[#edf2f8] rounded-[20px] align-middle text-[#6b7688] ">I strongly believe that the impact Blockchain and AI will have in the next years will surpass what fire and electricity brought to our society!</h4>
       <h4 className="head-text-2">As a tech-lover and human, my job here is to accelerate this process with my unique web3, cloud and development skills</h4>
       <h4 className="head-text-2 font-bold"><span>I have pratical experience in the following topics:</span></h4>
 
