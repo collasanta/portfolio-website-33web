@@ -32,7 +32,7 @@ const Header = () => (
         </motion.div>
         <motion.div className="tag-cmp app__flex" whileHover={{ scale: 1.1}}>
           <p className="p-text text-[16px] md:text-[15px]">I am a <strong>FullStack Web3 Developer</strong></p>
-          <p className="p-text text-[16px] md:text-[15px]">that loves <strong>Building Solutions</strong></p>
+          <p className="p-text text-[16px] md:text-[15px]"><strong>Building Solutions</strong></p>
           <p className="p-text text-[16px] md:text-[15px]">with <strong>Disruptive Tech</strong></p>
         </motion.div>
       </div>
