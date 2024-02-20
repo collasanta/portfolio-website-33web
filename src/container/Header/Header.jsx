@@ -31,7 +31,7 @@ const Header = () => (
           </div>
         </motion.div>
         <motion.div className="tag-cmp app__flex" whileHover={{ scale: 1.1}}>
-          <p className="p-text text-[16px] md:text-[15px]">I am a <strong>FullStack Web3 Developer</strong></p>
+          <p className="p-text text-[16px] md:text-[15px]">I'm a <strong>FullStack Developer</strong></p>
           <p className="p-text text-[16px] md:text-[15px]"><strong>Building Solutions</strong></p>
           <p className="p-text text-[16px] md:text-[15px]">with <strong>Disruptive Tech</strong></p>
         </motion.div>
@@ -40,10 +40,10 @@ const Header = () => (
     <motion.div
       whileInView={{ opacity: [0, 1] }}
       transition={{ duration: 2, delayChildren: 0.5 }}
-      className="app__header-img"
+      className="app__header-img rounded-lg"
     >
 
-      <motion.img src={images.profilepic2} whileHover={{ scale: 1.07}} alt="profile_bg"
+      <motion.img src={images.profilepic2} whileHover={{ scale: 2}} alt="profile_bg "
        className="core_logo z-10" />
   
     </motion.div>
@@ -53,8 +53,8 @@ const Header = () => (
       transition={{ duration: 2, delayChildren: 0.5 }}
       className="app__header-circles md:pl-[50px]"
     >
-      {[images.solidity,  images.awsarc, images.ts, images.next].map((circle, index) => (
-        <motion.div whileHover={{ scale: 1.2}} className="circle-cmp app__flex" key={`circle-${index}` }>
+      {[images.node,  images.aws, images.ts, images.next, images.solidity].map((circle, index) => (
+        <motion.div whileHover={{ scale: 2.5}} className="circle-cmp app__flex" key={`circle-${index}` }>
           <img src={circle} alt="profile_bg" />
         </motion.div>
       ))}

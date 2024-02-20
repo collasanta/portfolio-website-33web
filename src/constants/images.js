@@ -18,9 +18,11 @@ import linkedin from '../assets/linkedin.svg'
 import github from '../assets/github.svg'
 import ts from '../assets/ts.png'
 import next from '../assets/next.png'
-import profilepic2 from '../assets/profilepic2.jpg'
+import profilepic2 from '../assets/profilepic2.jpeg'
 import awsarc from '../assets/awsarc.png'
 import aws from '../assets/aws.png'
+import node from '../assets/node.png'
+import nftlend from '../assets/nftlend.png'
 
 export default {
   aws,
@@ -45,5 +47,7 @@ export default {
   logoclean,
   logosnake,
   brflag,
-  euaflag
+  euaflag,
+  node,
+  nftlend
 };

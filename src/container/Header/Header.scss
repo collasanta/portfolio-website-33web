@@ -146,15 +146,24 @@
      max-height: 100px;
    }
  
+  //  div:nth-child(2) {
+  //    margin: 1rem;
+  //    min-width: 120px;
+  //    min-height: 120px;
+  //    max-width: 250px;
+  //    max-height: 250px;
+  //    img {
+  //     width: 85%;
+  //     height: 85%;
+  //   }
+  //  }
+ 
    div:nth-child(2) {
-     margin: 1rem;
-     min-width: 180px;
-     min-height: 180px;
-     max-width: 250px;
-     max-height: 250px;
+     max-width: 90px;
+     max-height: 90px;
      img {
-      width: 85%;
-      height: 85%;
+      width: 90%;
+      height: 75%;
     }
    }
  
