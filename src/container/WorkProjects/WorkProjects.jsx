@@ -236,7 +236,7 @@ const WorkProjects = () => {
         className="app__work-portfolio max-w-[1100px]"
       >
         {filterWork.map((work, index) => (
-          <div className="app__work-item app__flex shadow-md" key={index}>
+          <div className="app__work-item app__flex border-2" key={index}>
             {
               !isMd ?
                 (

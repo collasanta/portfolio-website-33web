@@ -32,15 +32,15 @@ const Footer = () => {
     <>
       <h2 className="head-text">Get in <span>Contact</span></h2>
       <div className="app__footer-cards">
-        <div className="app__footer-card shadow-md">
+        <div className="app__footer-card border-2">
           <img src={images.email} alt="email" />
           <a href="mailto:victor.collasnta@gmail.com" className="p-text">victor.collasanta@gmail.com</a>
         </div>
-        <div className="app__footer-card shadow-md">
+        <div className="app__footer-card border-2">
           <img src={images.mobile} alt="phone" />
           <a href="tel:+55 (11) 99617-1599" className="p-text">+55 (11) 999121533</a>
         </div>
-        <div className="app__footer-card shadow-md">
+        <div className="app__footer-card border-2">
           <img src={images.linkedin} className='col' alt="linkedin" />
           <a href="https://www.linkedin.com/in/collasanta" className="p-text">https://www.linkedin.com/in/collasanta</a>
         </div>

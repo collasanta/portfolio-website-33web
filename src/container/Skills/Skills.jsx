@@ -210,7 +210,7 @@ const Skills = () => {
         <div className="flex mx-auto flex-col md:flex-row pt-[20px] justify-center" >
           {/* <img className="image mx-auto justify-center min-w-[300px] min-h-[300px] mx-auto flex flex-row"
          src={images.profilepic} alt=""/> */}
-          <div className="flex flex-col sm:flex-row sm:space-x-20 my-auto mx-auto space-y-2 border py-2 px-4 items-center  bg-white rounded-lg shadow-sm">
+          <div className="flex flex-col sm:flex-row sm:space-x-20 my-auto mx-auto space-y-2  py-2 px-4 items-center rounded-lg ">
             <div className=''>
               <h3 className='text-[26px]'>Victor Henrique Collasanta</h3>
               <p className='p-text text-[14px] pb-3'>• 26 years old, Fluent English</p>
@@ -248,7 +248,7 @@ const Skills = () => {
                 key={skill.name}
               >
                 <div
-                  className="app__flex shadow-md"
+                  className="app__flex border-2"
                   style={{ backgroundColor: skill.bgColor }}
                 >
                   <img src={urlFor(skill.icon)} alt={skill.name} />

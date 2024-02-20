@@ -79,7 +79,7 @@ const About = () => {
         whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 1.5, delayChildren: 1 }}
       >
-        <h4 className="p-4 my-4 mt-10 shadow-lg  text-center max-w-[450px] mx-auto bg-[#edf2f8] rounded-[20px] align-middle text-[#6b7688]">I believe that the impact Blockchain and AI will have in the next years will surpass what fire and electricity brought to our society!</h4>
+        <h4 className="p-4 my-4 mt-10 border-2  text-center max-w-[450px] mx-auto bg-[#edf2f8] rounded-[20px] align-middle text-[#6b7688]">I believe that the impact Blockchain and AI will have in the next years will surpass what fire and electricity brought to our society!</h4>
         <h4 className="head-text-2">As a tech-lover and human, my job here is to learn and accelerate this process with my skills</h4>
         <h4 className="head-text-2 font-bold"><span>I have pratical experience in the following topics:</span></h4>
 
@@ -91,7 +91,7 @@ const About = () => {
             whileInView={{ opacity: 1 }}
             // whileHover={{ scale: 1.05 }}
             // transition={{ duration: 0.5, type: 'tween' }}
-            className="app__profile-item hover:transform hover:scale-110 transition duration-500 text-center"
+            className="app__profile-item border-2 rounded-lg  hover:transform hover:scale-110 transition duration-500 text-center"
             key={about.title + index}
           >
             <motion.div
@@ -102,7 +102,7 @@ const About = () => {
               <img src={urlFor(about.imgUrl)} alt={about.title} className='animate-wiggle hover:transform hover:scale-110 transition duration-500' />
             </motion.div>
             <h2 className="bold-text text-[18px] text-center mx-auto" style={{ marginTop: 20 }}>{about.title}</h2>
-            <p className="p-text text-[16px] text-center" style={{ marginTop: 10 }}>{about.description}</p>
+            <p className="p-text text-[16px] text-center p-4" style={{ marginTop: 10 }}>{about.description}</p>
           </motion.div>
         ))}
       </div>
