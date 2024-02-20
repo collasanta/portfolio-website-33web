@@ -205,7 +205,7 @@ const experiences = [
 const Skills = () => {
   return (
     <>
-      <div className='bg-[#edf2f8] rounded-[75px] shadow-lg border border-4  max-w-[1050px]'>
+      <div className='bg-[#edf2f8] rounded-[75px] border-2  max-w-[1050px]'>
         <h2 className="head-text mt-10 mb-20">Experience <span>& </span> Skills </h2>
         <div className="flex mx-auto flex-col md:flex-row pt-[20px] justify-center" >
           {/* <img className="image mx-auto justify-center min-w-[300px] min-h-[300px] mx-auto flex flex-row"
