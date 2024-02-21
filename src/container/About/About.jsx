@@ -15,7 +15,7 @@ const About = () => {
           "_type": "reference"
         }
       },
-      "description": "With a passion for macroeconomics and a background in finance, I moved my career from traditional finance to DeFi and Blockchain, building and testing smart contracts fo web3 projects, including dev and prod of ERC-20, ERC-1155, and ERC-721 tokens with Solidity, Hardhat, Truffle on EVM chains, and used other web3 tools like OpenZeppelin and Chainlink. Created custom solutions implementing and interacting with DeFi protocols such as UniswapV3.",
+      "description": "With a passion for macroeconomics and a background in finance, I moved my career from traditional finance to DeFi and Blockchain, building and testing smart contracts for web3 projects, ranging from ERC-20, ERC-1155, and ERC-721 tokens to custom contracts interacting with DeFi protocols such as UniswapV3.",
       "title": "DeFi and Blockchain"
     },
     {
@@ -49,7 +49,7 @@ const About = () => {
           "_type": "reference"
         }
       },
-      "description": "Worked on projects developing strongly-typed front-ends with Typescript, mostly using Next.js and React, as well as state management tools like useContext and Redux. I also integrated these front-ends with blockchains using libraries such as Ethers.js and Web3.js, interacting with various wallets using Metamask and Web3Modal / WalletConnect libs",
+      "description": "Worked on projects developing strongly-typed front-ends with Typescript, mostly using Next.js and React, as well as state management tools. I also integrated these front-ends with blockchains using libraries such as Ethers.js and Web3.js, interacting with various wallets using Metamask and Web3Modal / WalletConnect libs",
       "title": "Frontend Development"
     },
     {
@@ -60,7 +60,7 @@ const About = () => {
           "_type": "reference"
         }
       },
-      "description": "Built and Deployed Chatbots with custom enterprise knowlodge leveraging opensource LLM models, RAG, and OpenAI API`S, Worked with Python and R for data analysis and machine learning models. I been leveraging GitHub Copilot to speed up my dev proccess and productivity, and I keep up with the latest AI advancements on a daily basis",
+      "description": "Built and Deployed Chatbots with custom enterprise knowlodge leveraging LLM models, RAG, and OpenAI API`S. Worked with Python and R for data analysis and machine learning models. I use GitHub Copilot to speed up my dev proccess and productivity, and i always am a early adopter of the latest AI advancements",
       "title": "AI"
     },
   ]

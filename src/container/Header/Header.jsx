@@ -40,11 +40,11 @@ const Header = () => (
     <motion.div
       whileInView={{ opacity: [0, 1] }}
       transition={{ duration: 2, delayChildren: 0.5 }}
-      className="app__header-img rounded-lg"
+      className="app__header-img rounded-[100px]"
     >
 
-      <motion.img src={images.profilepic2} whileHover={{ scale: 2}} alt="profile_bg "
-       className="core_logo z-10" />
+      <motion.img src={images.profilepic2} whileHover={{ scale: 1.5}} alt=""
+       className="z-10" />
   
     </motion.div>
     <motion.div
